@@ -1,0 +1,73 @@
+
+.searchBar{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    background-color: #EEE;
+    overflow: hidden;
+}
+
+a:hover{
+    font-weight: 900;
+}
+
+.searchBarAtribute, .searchBarAtributeDrop{
+    float:left;
+    
+}
+
+.searchBarAtributeDrop{
+    padding: 12px 16px;
+    
+}
+
+.searchBar a{
+    display: block;
+    text-decoration: none;
+    color: #000;
+    padding: 12px;
+}
+
+a:hover .searchBarAtributeDrop{
+    background-color: #555;
+    color: #FFF;
+}
+
+.active{
+    background-color: #6F6F6F;
+    color: #FFF;
+    
+}
+
+.hiddenContent {
+    display: none;
+    position: absolute;
+    background-color: #EEE;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    }
+
+.hiddenContent a {
+        color: black;
+        padding: 12px 16px;
+   }
+
+.searchBarAtributeDrop:hover .hiddenContent {
+    display: block;
+}
+
+.hiddenContent a:hover {
+    background-color: #EEE;
+}
+
+.sobreNos{
+    margin: 5%;
+    padding-bottom:15% ;
+    padding-right: 15%;
+    
+
+}
+
+.sobreNosImg, .sobreNosTxt{
+    float: left;
+}
